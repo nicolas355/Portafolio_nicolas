@@ -1,0 +1,158 @@
+.experiencia{
+    background: var(--fondo-principal);
+    padding-bottom: 10rem;
+   
+}
+
+.experiencia .contenedor_exp {
+    max-width: 90%;
+
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 95%;
+}
+.experiencia  .title{
+   font-size: 5rem;
+   text-align: center;
+
+    border-bottom: 2px solid;
+
+}
+
+
+@media (min-width:992px){
+    .experiencia  .title{
+        font-size: var(--font-lg);
+        text-align: center;
+        color: var(--color-primario);
+    border-bottom: none;
+     }
+}
+
+
+
+.experiencia h2{
+    text-align: start;
+
+}
+
+.titulo_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo_1 h2{
+    font-size: 4rem;
+}
+
+
+
+@media (min-width:1200px){
+    .titulo h2{
+        font-size: var(--font-lg);
+        text-align: center;
+      }
+}
+
+
+.titulo_1 h3{
+    font-size: 2rem;
+    color: white;
+    font-family: var(--fuente-secundaria);
+}
+
+.xp li span{
+    font-family: var(--fuente-titular);
+    font-size: 2.6rem;
+    color: var(--color-primario);
+    font-weight: 900;
+}
+
+.xp li {
+    font-size: 1.8rem;
+    list-style: none;
+    color: var(--blanco);
+    font-family: var(--fuente-secundaria);
+    text-align: start;
+    font-weight: 400;
+    line-height: 2.3;
+   
+    display: inline-block;
+    width: 100%;
+}
+
+.titulo_3{
+    padding: 4rem 0rem;
+
+   }
+.contenido_1 ul li{
+    color: white;
+    list-style: none;
+    max-width: 100%;
+    margin: .5rem 0px;
+
+}
+
+@media (min-width:992px){
+    .contenido_1 ul li{
+        color: white;
+        list-style: none;
+        max-width: 72%;
+    
+    }
+
+
+    .titulo_3{
+        padding: 10rem 0rem;
+    
+       }
+    
+}
+
+@media (min-width:1200px){
+
+    .titulo_3 .title::after{
+        content: '';
+        position: absolute;
+        background-color: #ffffff;
+        content: "";
+        height: 3px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        top: 67px;
+        left: 0;
+        width: 33%;
+    
+    }
+    .titulo_3 .title::before{
+        content: '';
+        position: absolute;
+        background-color: #ffffff;
+        content: "";
+        height: 3px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        top: 67px;
+        right: 0;
+        width: 33%;
+    }
+    
+}
+
+.titulo_1 h2{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width:992px){
+    .titulo_1 h2{
+        font-size: 4rem;
+        color: var(--color-primario);
+   
+    }
+}
+

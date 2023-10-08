@@ -1,0 +1,14 @@
+*{
+  scroll-behavior: smooth;
+  transition:   scroll-behavior 2s ease;
+
+}
+:root {
+    --color-primario: #ef233c;
+    --fondo-principal: #000814;
+    --blanco:#ffffff;
+    --fuente-titular:   'Montserrat', sans-serif;
+    --fuente-secundaria:  'Poppins', sans-serif;
+    --font-lg:6rem;
+  }
+  

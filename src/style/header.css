@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.arrow{
+    position: fixed;
+
+    bottom: 0;
+    right: 2rem;
+    z-index: 1000;
+    
+    display: none;
+    transition: opacity 0.7s ease;
+    transform:translateY(-1rem) ;
+}
+
+header .logo a{
+   text-decoration: none;
+}
+.arrow.show {
+
+   opacity: 1;
+  }
+
+.arrow img{
+    width: 7rem;
+}
+
+@media (min-width:768px){
+    .arrow img{
+        width: 9rem;
+    }
+
+    .arrow{
+        position: fixed;
+    
+        bottom: 0;
+        right: 3rem;
+      
+        display: block;
+        transition: opacity 0.7s ease;
+
+        transform:translateY(-4rem) ;
+    }
+
+    .arrow.show {
+
+        opacity: 1;
+       }
+}
+
+
+.header{
+    background: #000814;
+    padding: 2rem;
+    border-bottom: 1px #c80d24 solid;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+@media (min-width:992px){
+
+    .contenedor-header{
+        max-width: 1500px;
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+       
+        align-items: center;
+        justify-content: space-between;
+     
+    
+    }
+}
+
+.contenedor-header .logo h3{
+    text-align: center;
+}
+.contenido_1{
+    text-align: start;
+    font-size: 22px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.contenido_1 ul li span{
+   font-size: 2.5rem;
+   color: var(--color-primario);
+   font-family: var(--fuente-titular);
+   font-weight: bold;
+    
+}
+.contenedor-header .logo  h3{
+        font-size: 4rem;
+        color: var(--blanco);
+      
+        font-family: var(--fuente-secundaria);
+}
+
+.contenedor-header img{
+   width: 270px;
+
+   object-fit: cover;
+   object-position: center;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-family: var(--fuente-titular);
+}
+
+.menu li a:hover{
+    color: #c80d24;
+}
+
+
+
+.title{
+    position: relative;
+ 
+}
+
+
+nav{
+    display: none;
+}
+
+@media (min-width:992px
+){
+    nav{
+        display: block;
+    }
+}
