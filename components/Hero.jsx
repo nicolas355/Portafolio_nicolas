@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import curso from '../src/assets/img/proyectos/imagen_curso.png'
 import { faWhatsapp,faGithub,faLinkedin     } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import perfil from "../src/assets/img/perfil.jfif"
 
 
 
@@ -30,7 +30,7 @@ const Hero = () => {
         
             <div className="contenido">
           
-              <img src={curriculum} className="img-perfil" alt="imagen_perfil_nicolas_gonzalez" loading="lazy" />
+              <img src={perfil} className="img-perfil" alt="imagen_perfil_nicolas_gonzalez" loading="lazy" />
               <h1>Nicolas Gonzalez</h1>
               <h2>Frontend Developer</h2>
             </div>
