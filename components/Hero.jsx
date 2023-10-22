@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import curso from '../src/assets/img/proyectos/imagen_curso.png'
 import { faWhatsapp,faGithub,faLinkedin     } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import perfil from "../src/assets/img/perfil.jfif"
+import perfil from '../src/assets/img/perfil.png'
 
 
 
